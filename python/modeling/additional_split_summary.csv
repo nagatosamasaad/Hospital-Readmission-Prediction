@@ -1,0 +1,11 @@
+target,partition,rows,patients,start,end
+claim_total,train,107194,44878,2015-05-05,2020-12-01
+claim_total,selection,28344,17240,2021-02-01,2022-12-01
+claim_total,calibration,5412,3648,2023-01-01,2023-12-01
+claim_total,threshold,7246,4758,2024-01-01,2024-05-31
+claim_total,test,21215,10574,2024-07-01,2025-08-31
+ICD_group,train,34297,14442,2019-04-01,2020-12-01
+ICD_group,selection,28053,17114,2021-02-01,2022-12-01
+ICD_group,calibration,5188,3561,2023-01-01,2023-12-01
+ICD_group,threshold,6835,4598,2024-01-01,2024-05-31
+ICD_group,test,19664,10152,2024-07-01,2025-08-31

@@ -1,0 +1,37 @@
+{
+  "claim_model": "median_baseline",
+  "diagnosis_model": "balanced_forest",
+  "cost_intervals": {
+    "nominal_coverage": 0.9,
+    "test_coverage": 0.8866368135753004,
+    "mean_width": 35.10000000000001,
+    "calibration_radius": 20.849999999999994,
+    "caveat": "No coverage guarantee under temporal drift or repeated-patient dependence."
+  },
+  "diagnosis_train_class_counts": {
+    "CIRCULATORY": 10243,
+    "INFECTIOUS_PARASITIC": 5702,
+    "MUSCULOSKELETAL": 3896,
+    "RESPIRATORY": 3581,
+    "DIGESTIVE": 2389,
+    "ENDOCRINE_METABOLIC": 2095,
+    "GENITOURINARY": 1938,
+    "BLOOD_IMMUNE": 978,
+    "NERVOUS_SYSTEM": 742,
+    "SKIN": 597,
+    "SYMPTOMS_SIGNS": 508,
+    "INJURY_POISONING": 406,
+    "EAR": 310,
+    "HEALTH_SERVICE_CONTACT": 253,
+    "EYE": 194,
+    "MENTAL_BEHAVIOURAL": 171,
+    "NEOPLASMS": 146,
+    "PREGNANCY_CHILDBIRTH": 86,
+    "EXTERNAL_CAUSES": 45,
+    "CONGENITAL": 10,
+    "PERINATAL": 5,
+    "MULTIPLE_CHAPTERS": 2
+  },
+  "source_units": "unverified",
+  "all_predictors_available": "start of index day"
+}

@@ -1,0 +1,9 @@
+analysis,headline result,caveat
+Segmentation,"3 segments, silhouette 0.48","Descriptive grouping, not clinical"
+High-cost detection,top-10% flag captures 64% of next-year cost (lift 8.8x),AP 0.356 vs prevalence 0.011
+Anomaly detection,781 claims in the top-1% review list,Unsupervised; needs human review
+Two-stage cost,MAE 8.97 vs baseline 10.52,Check target diagnostics table first
+Survival,"21% return within 30 days, 38% within 365",Censoring-aware; not readmission
+Comorbidity,Mental Behavioural + Nervous System (lift 2.7),"Coding patterns, not causation"
+Next diagnosis,"top-1 37.8%, top-3 65.5% (markov_order2_backoff)",majority baseline 27.1%
+Forecasting,claims MAPE 5.6% (seasonal_naive),seasonal naive 5.6%

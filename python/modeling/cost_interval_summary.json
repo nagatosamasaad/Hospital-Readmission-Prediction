@@ -1,0 +1,7 @@
+{
+  "nominal_coverage": 0.9,
+  "test_coverage": 0.8866368135753004,
+  "mean_width": 35.10000000000001,
+  "calibration_radius": 20.849999999999994,
+  "caveat": "No coverage guarantee under temporal drift or repeated-patient dependence."
+}
