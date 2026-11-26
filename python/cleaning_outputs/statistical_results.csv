@@ -1,0 +1,5 @@
+question,test,n,statistic,p_value,effect,effect_name,p_holm,evidence_at_0_05,effect_size_label,practically_meaningful
+Claim by gender,Mann–Whitney,35806,151981863.0,0.04917597542473555,-0.01216880924655861,rank-biserial (F vs M),0.04917597542473555,True,negligible,False
+Claim by age group,Kruskal–Wallis,35806,1059.6464113889472,4.223332583039576e-228,0.0294865062816387,epsilon squared,1.6893330332158304e-227,True,small,True
+30-day observed return by age,Chi-square,29074,807.3533680290968,1.9613352879242006e-173,0.16664006933061107,Cramer's V,5.8840058637726016e-173,True,small,True
+Age versus positive claim,Spearman,35806,0.11264518740730843,1.9403443471916467e-101,0.11264518740730843,rho,3.8806886943832933e-101,True,small,True

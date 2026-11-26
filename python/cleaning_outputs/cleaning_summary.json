@@ -1,0 +1,57 @@
+{
+  "source_sha256": "cd7745620a4a9e796d2b9bbd5a8827fac0959ccf08bdb2c763fbdf96a7e67f76",
+  "source_rows": 538544,
+  "exact_duplicate_rows_removed": 179276,
+  "embedded_headers_removed": 32,
+  "clean_rows": 359236,
+  "analysis_claim_rows": 78026,
+  "observed_patient_days": 175015,
+  "identified_patients": 76237,
+  "missing_patient_id_retained": 156599,
+  "missing_visit_date_retained": 169347,
+  "unreliable_visit_dates": 180961,
+  "source_date_conflicts": 11614,
+  "age_imputed_from_past": 27,
+  "invalid_age_rows": 58,
+  "age_conflicts": 5089,
+  "gender_conflict_patients": 1614,
+  "discharge_before_visit": 5,
+  "icd_format_issue_rows": 823,
+  "claim_component_mismatch_diagnostic": 14146,
+  "observation_end": "2025-08-31",
+  "invariants_passed": true,
+  "negative_amount_counts": {
+    "drugs_amount": 0,
+    "investigation_amount": 0,
+    "outpatient_amount": 0,
+    "inpatient_amount": 0,
+    "service_amount": 0,
+    "total_claim": 0
+  },
+  "return_windows": {
+    "30": {
+      "eligible": 122256,
+      "positive": 27455,
+      "unknown": 52759
+    },
+    "90": {
+      "eligible": 121057,
+      "positive": 40334,
+      "unknown": 53958
+    },
+    "180": {
+      "eligible": 119072,
+      "positive": 49091,
+      "unknown": 55943
+    }
+  },
+  "analysis_ready_rows": 78026,
+  "analysis_ready_columns": 38,
+  "analysis_ready_missing_cells": 0,
+  "total_claim_rebuilt_rows": 76969,
+  "analysis_candidate_rows": 177758,
+  "analysis_excluded_rows": 99732,
+  "all_retained_records_excluded_from_analysis": 281210,
+  "complete_case_return_30_rows": 101396,
+  "complete_case_return_30_missing_cells": 0
+}
